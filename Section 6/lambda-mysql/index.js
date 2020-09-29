@@ -3,7 +3,7 @@ var mysql = require('mysql');
 exports.handler = (event, context) => {
 
   var connection = mysql.createConnection({
-    host     : '',
+    host: '',
     user     : '',
     password : ''
   }); 
